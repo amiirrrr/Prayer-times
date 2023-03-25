@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>مواقيت الصلاة </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1 class="page-title">مواقيت الصلاة </h1>
+      <h2 class="p-t">حسابات المطور</h2>
+      
+      <ul class="social-icons">
+        <li><a href="https://github.com/amiirrrr " target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://t.me/Amir_farrag" target="_blank"><i class="fab fa-telegram"></i></a></li>
+        <li><a href="https://www.facebook.com/Amir.farrag.911/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </header>
+    <main>
+      <h2>اختر محافظتك</h2>
+      <label for="governorates">المحافظة:</label>
+      <select id="governorates">
+        <option value="cairo">القاهرة</option>
+        <option value="alexandria">الإسكندرية</option>
+        <option value="asyut">أسيوط</option>
+        <option value="beheira">البحيرة</option>
+        <option value="beni-suef">بني سويف</option>
+        <option value="cairo">القاهرة</option>
+        <option value="cairo">الدقهلية</option>
+        <option value="cairo">دمياط</option>
+        <option value="cairo">سوهاج</option>
+        <option value="cairo">الشرقية</option>
+        <option value="cairo">الغربية</option>
+        <option value="cairo">الفيوم</option>
+        <option value="cairo">الإسماعيلية</option>
+        <option value="cairo">كفر الشيخ</option>
+        <option value="cairo">مطروح</option>
+        <option value="cairo">المنوفية</option>
+        <option value="cairo">المنيا</option>
+        <option value="cairo">الوادي الجديد</option>
+        <option value="cairo">شمال سيناء</option>
+        <option value="cairo">بورسعيد</option>
+        <option value="cairo">قنا</option>
+        <option value="cairo">القليوبية</option>
+        <option value="cairo">البحر الأحمر</option>
+        <option value="cairo">السويس</option>
+        <option value="cairo">جنوب سيناء</option>
+      </select>
+      
+      <div class="prayer-card">
+        <h3>موعد الفجر</h3>
+        <p id="fajr-time">--:--</p>
+      </div>
+      <div class="prayer-card">
+        <h3>موعد الظهر</h3>
+        <p id="dhuhr-time">--:--</p>
+      </div>
+      <div class="prayer-card">
+        <h3>موعد العصر</h3>
+        <p id="asr-time">--:--</p>
+      </div>
+      <div class="prayer-card">
+        <h3>موعد المغرب</h3>
+        <p id="maghrib-time">--:--</p>
+      </div>
+      <div class="prayer-card">
+        <h3>موعد العشاء</h3>
+        <p id="isha-time">--:--</p>
+      </div>
+    </main>
+    <footer>
+      <p>حقوق النشر © 2023 أمير فراج</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
